@@ -77,3 +77,15 @@ body {
 }
 
 /*Fin Class pour scroll.js*/
+
+/* formulaire de contact - image de fond */
+#contact {
+	position: relative;
+}
+#contact > div:first-child {
+	position: absolute;
+	min-height: 800px;
+	background-attachment: fixed;
+	background-size: cover;
+	filter: blur(5px);
+}
