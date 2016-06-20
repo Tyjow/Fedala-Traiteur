@@ -20,6 +20,7 @@
 
 	<body class="container-fluid nopad">
 
+		<!-- barre de navigation -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
@@ -44,16 +45,20 @@
 			</div>
 		</nav>
 
+		<!-- formulaire de contact -->
 		<section id="contact" class="row">
 			<form role="form" class="col-md-7 row">
+				<!-- champ "Nom" -->
 				<div class="form-group col-md-10">
 					<label for="name" class="sr-only">Nom :</label>
 					<input type="text" class="form-control" id="name" placeholder="Nom…"/>
 				</div>
+				<!-- champ "e-mail" -->
 				<div class="form-group col-md-10">
 					<label for="e-mail" class="sr-only">e-mail :</label>
 					<input type="email" class="form-control" id="e-mail" placeholder="e-mail…"/>
 				</div>
+				<!-- menu déroulant "Objet" -->
 				<div class="form-group col-md-10">
 					<label for="objet" class="sr-only">Objet :</label>
 					<select class="form-control" id="objet"/>
@@ -64,13 +69,16 @@
 						<option>Autre</option>
 					</select>
 				</div>
+				<!-- champ de texte "Message" -->
 				<div class="form-group col-md-12">
 					<label for="message" class="sr-only">Votre message :</label>
 					<textarea class="form-control" rows="8" id="message" placeholder="Votre message…"></textarea>
 				</div>
 			</form>
 			<div class="col-md-5">
+				<!-- icône grand format -->
 				<img src="" class="col-md-12"/>
+				<!-- bouton d’envoi du message -->
 				<button type="submit" class="col-md-8 col-md-offset-2 btn btn-lg">Envoyer</button>
 			</div>
 		</section>
