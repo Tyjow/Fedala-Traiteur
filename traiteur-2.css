@@ -1,0 +1,69 @@
+.pad {
+    padding: 0;
+    }
+
+.img-1 {
+    background-image: url(traiteur-1.jpg);
+    width: 100%;
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+
+.entre {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entre:hover {
+    width: 75px;
+    height: 55px;
+}
+
+.plat {
+    width: 65px;
+    height: 45px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plat:hover {
+    width: 75px;
+    height: 55px;
+    border: 1px solid black;
+    border-left: none;
+}
+.dessert {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dessert:hover {
+    width: 75px;
+    height: 55px;
+}
+.menu {
+    position: fixed;
+}
