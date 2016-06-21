@@ -116,6 +116,7 @@ body {
 
 #onglets > li > ul > li > a:hover {
   background-color: #e8b3e9;
+  color: rgb(138, 129, 175);
 }
 
 hr {
@@ -170,5 +171,17 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.pic {
+  width: 250px;
+  height: 200px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
