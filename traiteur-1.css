@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+
+.pad {
+    padding: 0;
+    overflow-x: hidden;
+}
+    
+.img-left {
+    background-image: url(traiteur-1.jpeg);
+    width:100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-center {
+    background-image: url(accueil4.jpg);
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-right {
+    background-image: url(img-1.jpeg);
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entre {
+    width: 80%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+/*
+.centrage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*BLUR*/
+
+.img-left
+{
+    transition: 2s;
+}
+
+.img-left:hover
+{
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+}
+.entre:hover 
+{
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-o-filter: blur(0px);
+	-ms-filter: blur(0px);
+}
+
+
+
+/*Debut Class pour scroll.js*/
+
+.navbar-default.scroll {
+  background-color: rgba(138, 129, 175, 0.7);
+  border: none;
+  padding: 0 0;
+}
+
+.navbar-default .navbar-header .navbar-brand.scroll {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover.scroll{
+  color: #333333;
+}
+
+.navbar-default .nav > li > a.scroll {
+  color: #ffffff;
+}
+
+.navbar-default .nav > li > a:hover.scroll {
+  color: #333333;
+}
+
+/*Fin Class pour scroll.js*/
+
+.navbar-default {
+  	background-color: rgba(138, 129, 175, 0.7);
+  	transition: all 0.50s;
+  	padding: 15px 0;
+  	border: none;
+}
+.navbar-default .navbar-header .navbar-brand {
+  	font-weight: 700;
+  	color: #ffffff;
+  	transition: all 0.50s;
+  	font-size: 30px;
+}
+.navbar-default .navbar-header .navbar-brand:hover {
+  	color: #333333;
+}
+.navbar-default .nav > li > a {
+  	font-size: 19px;
+  	color: #ffffff;
+    font-weight: 500;
+}
+.navbar-default .nav > li > a:hover {
+  	color: #333333;
+    font-weight: 700;
+  	transition: all 0.50s;
+}
+
+.navbar-right {
+  	float: right;
+  	margin-right: 0;
+}
+
+.nav-middle {
+  padding: 0 0 0 5%;
+}
