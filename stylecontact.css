@@ -89,6 +89,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	filter: blur(5px);
+	-webkit-filter: blur(5px);
 }
 
 /* formulaire de contact - positionnement et fond assombri */
