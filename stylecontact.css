@@ -132,3 +132,13 @@ body {
 	font-family: "sans";
 	font-weight: 300;
 }
+
+/* formulaire de contact - format des champs */
+#contact .form-control {
+	border-radius: 0;
+	border: 3px solid #000000;
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF;
+	font-size: 1.5em;
+	height: 150%;
+}
