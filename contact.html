@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="stylecontact.css">
+
+		<script src="https://use.fontawesome.com/50d70c63af.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>		
+		<script type="text/javascript" src="scroll.js"></script>
+
+		<title>Fédala Déco Traiteur - Contact</title>
+
+	</head>
+
+	<body class="container-fluid nopad">
+
+		<!-- barre de navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+		  		<span class="icon-bar"></span>
+		  		<span class="icon-bar"></span>
+		  		<span class="icon-bar"></span>
+				</button>
+			  <a class="navbar-brand" href="#">Fédala Déco Traiteur</a>
+			</div>
+			<div class="collapse navbar-collapse" id="MenuNavbar">
+				<ul class="nav navbar-nav nav-middle">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="traiteur.html">Traiteur</a></li>
+					<li><a href="#">Evènements</a></li>
+					<li><a href="#">Locations</a></li>
+					<li><a href="contact.html">Contacter</a></li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+		  		<li><a href="#"> Se Connecter</a></li>
+		  		<li><a href="#"> S'enregistrer</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- formulaire de contact -->
+		<section id="contact" class="row">
+			<div style="background-image: url(img/contact-bg.jpg);"></div>
+			<div class="col-md-12 row">
+				<form role="form" class="col-md-7 row">
+					<!-- champ "Nom" -->
+					<div class="form-group col-md-10">
+						<label for="name" class="sr-only">Nom :</label>
+						<input type="text" class="form-control" id="name" placeholder="Nom…"/>
+					</div>
+					<!-- champ "e-mail" -->
+					<div class="form-group col-md-10">
+						<label for="e-mail" class="sr-only">e-mail :</label>
+						<input type="email" class="form-control" id="e-mail" placeholder="e-mail…"/>
+					</div>
+					<!-- menu déroulant "Objet" -->
+					<div class="form-group col-md-10">
+						<label for="objet" class="sr-only">Objet :</label>
+						<select class="form-control" id="objet"/>
+							<option>Commande de repas</option>
+							<option>Organisation d’événement</option>
+							<option>Location de matériel</option>
+							<option>Livre d’or</option>
+							<option>Autre</option>
+						</select>
+					</div>
+					<!-- champ de texte "Message" -->
+					<div class="form-group col-md-12">
+						<label for="message" class="sr-only">Votre message :</label>
+						<textarea class="form-control" rows="8" id="message" placeholder="Votre message…"></textarea>
+					</div>
+				</form>
+				<div class="col-md-5">
+					<!-- icône grand format -->
+					<img src="img/mail.svg" class="col-md-12"/>
+					<!-- bouton d’envoi du message -->
+					<button type="submit" class="col-md-6 col-md-offset-3 btn btn-lg">Envoyer</button>
+				</div>
+			</div>
+		</section>
+
+	</body>
+
+</html>
