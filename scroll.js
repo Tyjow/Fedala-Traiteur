@@ -1,3 +1,4 @@
+// scrollbar - taille réduite au défilement
 $(document).ready(function(){       
    var scroll_start = 0;
    var startchange = $('#change');
@@ -22,7 +23,7 @@ $(document).ready(function(){
     }
 });
 
-
+// taille des initiales de chaque mot sur une ligne
 $(document).ready(function() {
     var words = $('h1').text().split(' ');
     var html = '';
@@ -31,7 +32,6 @@ $(document).ready(function() {
     });
     $('h1').html(html);
 });
-
 $(document).ready(function() {
     var words = $('.navbar-brand').text().split(' ');
     var html = '';
@@ -40,3 +40,11 @@ $(document).ready(function() {
     });
     $('.navbar-brand').html(html);
 });
+
+// fonctions de gestion du flou des images (traiteur-1.html)
+function addBlur(target) {
+	document.getElementById(target).classList.add('img-blur');
+}
+function remBlur(target) {
+	document.getElementById(target).classList.remove('img-blur');
+}
