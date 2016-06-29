@@ -10,6 +10,14 @@
     background-size: cover;
     background-position: center center
 }
+.img-2 {
+    background-image: url(dessert.jpeg);
+    width: 100%;
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center
+}
 
 
 .right {
@@ -66,4 +74,53 @@
 }
 .menu {
     position: fixed;
+    padding-top: 80px;
+}
+
+.contenu-entre {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.pad-bot {
+    padding-bottom: 100px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+}
+
+.pad-top {
+    padding-top: 50px;
+}
+
+.pad-h2 {
+    padding-bottom: 40px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.pad-ico-right {
+    padding-right: 50px;
+}
+
+.pad-ico-left {
+    padding-left: 50px;
+}
+
+.size {
+    height: 768px;
+}
+
+.pad-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.contenu-2-menu {
+    float: right;
+}
+
+.pad-right {
+    padding-right: 50px;
 }
