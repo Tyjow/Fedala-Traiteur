@@ -45,15 +45,15 @@
 	    </div>
 	</nav>
 
-	<header class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/header-location.jpg">
+	<header class="container-fluid">
 	 	<ul class="nav navbar-nav" id="onglets">
 	      	<li class="dropdown">
 	    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Cuisine</a>
 	    		<ul class="dropdown-menu">
 	    			<hr>
-			        <li><a href="#" onclick="show('info')" onclick="hide('info')">Couverts</a></li>
+			        <li><a href="#couvert" onclick="show('couvert')">Couverts</a></li>
 			        <hr>
-			        <li><a href="#">Services de tables</a></li>
+			        <li><a href="#service_table" onclick="show('service_table')">Services de tables</a></li>
 			        <hr>
 			        <li><a href="#">Verres</a></li>
 			        <hr>
@@ -101,9 +101,16 @@
 	<section class="space space-pink"></section>
 
 	<section class="content">
-		<div class="container flex" id="info">
-			<img src="img/couvert.jpg" class="img-responsive pic" alt="img">
+		<div class="container">
 			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			<div class="container flex cacher" id="couvert">
+				<img src="img/couvert.jpg" class="img-responsive pic" alt="img">
+				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			</div>
+			<div class="container flex cacher" id="service_table">
+				<img src="img/carous4.jpg" class="img-responsive pic" alt="img">
+				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			</div>
 		</div>
 	</section>
 
