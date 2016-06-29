@@ -21,6 +21,8 @@ body {
   	transition: all 0.50s;
   	padding: 15px 0;
   	border: none;
+    border-radius: 0;
+    margin-bottom: 0;
 }
 .navbar-default .navbar-header .navbar-brand {
   	font-weight: 700;
@@ -166,10 +168,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/header-location.jpg);
+  /*background-image: url(img/header-location.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 .pic {
