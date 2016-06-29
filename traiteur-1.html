@@ -42,18 +42,21 @@
 			</header>
 
 			<div class="row">
-				<div class="pad col-xs-12 col-sm-4 col-lg-4">
-					<div class="img-left img-responsive">
+				<div class="pad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-left" class="img-left-background img-responsive"></div>
+					<div class="img-foreground" onmouseover="addBlur('img-left')" onmouseout="remBlur('img-left')">
 						<div class="entre">Entrée</div>
 					</div>
 				</div>
-				<div class="pad col-xs-12 col-sm-4 col-lg-4">
-					<div class="img-center img-responsive">
+				<div class="pad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-center" class="img-center-background img-responsive"></div>
+					<div class="img-foreground" onmouseover="addBlur('img-center')" onmouseout="remBlur('img-center')">
 						<div class="entre">Plat</div>
 					</div>
 				</div>
-				<div class="pad col-xs-12 col-sm-4 col-lg-4">
-					<div class="img-right img-responsive">
+				<div class="pad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-right" class="img-right-background img-responsive"></div>
+					<div class="img-foreground" onmouseover="addBlur('img-right')" onmouseout="remBlur('img-right')">
 						<div class="entre">Dessert</div>
 					</div>
 				</div>
