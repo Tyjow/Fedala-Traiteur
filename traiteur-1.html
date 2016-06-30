@@ -3,7 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<!-- style commun -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- style de la barre de navigation -->
+		<link rel="stylesheet" type="text/css" href="navbar.css">
+		<!-- style de la page -->
 		<link rel="stylesheet" href="traiteur-1.css">
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/50d70c63af.js"></script>
@@ -13,9 +19,10 @@
 
 	<body>
 
-		<div class="pad container-fluid">
+		<div class="nopad container-fluid">
 
 			<header>
+				<!-- barre de navigation -->
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
@@ -27,7 +34,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="MenuNavbar">
 						<ul class="nav navbar-nav nav-middle">
-							<li><a href="accueil.html">Accueil</a></li>
+							<li><a href="index.html">Accueil</a></li>
 							<li><a href="traiteur-1.html">Traiteur</a></li>
 							<li><a href="#">Evènements</a></li>
 							<li><a href="location.html">Locations</a></li>
@@ -35,29 +42,29 @@
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#">Se Connecter</a></li>
-							<li><a href="#">S'enregistrer</a></li>
+							<li><a href="#">S’enregistrer</a></li>
 						</ul>
 					</div>
 				</nav>
 			</header>
 
 			<div class="row">
-				<div class="pad img-container col-xs-12 col-sm-4 col-lg-4">
-					<div id="img-left" class="img-left-background img-responsive"></div>
-					<div class="img-foreground" onmouseover="addBlur('img-left')" onmouseout="remBlur('img-left')">
-						<div class="entre">Entrée</div>
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-left" class="img-left-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-left')" onmouseout="remBlur('img-left')">
+						<div class="entre color-white">Entrée</div>
 					</div>
 				</div>
-				<div class="pad img-container col-xs-12 col-sm-4 col-lg-4">
-					<div id="img-center" class="img-center-background img-responsive"></div>
-					<div class="img-foreground" onmouseover="addBlur('img-center')" onmouseout="remBlur('img-center')">
-						<div class="entre">Plat</div>
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-center" class="img-center-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-center')" onmouseout="remBlur('img-center')">
+						<div class="entre color-white">Plat</div>
 					</div>
 				</div>
-				<div class="pad img-container col-xs-12 col-sm-4 col-lg-4">
-					<div id="img-right" class="img-right-background img-responsive"></div>
-					<div class="img-foreground" onmouseover="addBlur('img-right')" onmouseout="remBlur('img-right')">
-						<div class="entre">Dessert</div>
+				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
+					<div id="img-right" class="img-right-background img-responsive fullwidth"></div>
+					<div class="img-foreground fullwidth" onmouseover="addBlur('img-right')" onmouseout="remBlur('img-right')">
+						<div class="entre color-white">Dessert</div>
 					</div>
 				</div>
 			</div>
