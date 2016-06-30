@@ -43,10 +43,10 @@ $(document).ready(function() {
 
 // fonctions de gestion du flou des images (traiteur-1.html)
 function addBlur(target) {
-	document.getElementById(target).classList.add('img-blur');
+	document.getElementById(target).classList.add('blur');
 }
 function remBlur(target) {
-	document.getElementById(target).classList.remove('img-blur');
+	document.getElementById(target).classList.remove('blur');
 }
 
 // fonction de gestion du sous menu location (location.html)
