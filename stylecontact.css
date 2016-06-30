@@ -16,67 +16,6 @@ body {
   padding: 0;
 }
 
-.navbar-default {
-  	background-color: rgba(138, 129, 175, 0.7);
-  	transition: all 0.50s;
-  	padding: 15px 0;
-  	border: none;
-}
-.navbar-default .navbar-header .navbar-brand {
-  	font-weight: 700;
-  	color: #ffffff;
-  	transition: all 0.50s;
-  	font-size: 30px;
-}
-.navbar-default .navbar-header .navbar-brand:hover {
-  	color: #333333;
-}
-.navbar-default .nav > li > a {
-  	font-size: 19px;
-  	color: #ffffff;
-    font-weight: 500;
-}
-.navbar-default .nav > li > a:hover {
-  	color: #333333;
-  	transition: all 0.50s;
-}
-
-.navbar-right {
-  	float: right;
-  	margin-right: 0;
-}
-
-.nav-middle {
-  padding: 0 0 0 5%;
-}
-
-/*Debut Class pour scroll.js*/
-
-.navbar-default.scroll {
-  background-color: rgba(138, 129, 175, 0.7);
-  border: none;
-  padding: 0 0;
-}
-
-.navbar-default .navbar-header .navbar-brand.scroll {
-  font-size: 25px;
-  color: #ffffff;
-}
-
-.navbar-default .navbar-header .navbar-brand:hover.scroll{
-  color: #333333;
-}
-
-.navbar-default .nav > li > a.scroll {
-  color: #ffffff;
-}
-
-.navbar-default .nav > li > a:hover.scroll {
-  color: #333333;
-}
-
-/*Fin Class pour scroll.js*/
-
 /* formulaire de contact - image de fond */
 #contact {
 	position: relative;
