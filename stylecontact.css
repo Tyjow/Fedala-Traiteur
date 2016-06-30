@@ -105,16 +105,13 @@ body {
 }
 
 /* formulaire de contact - alignement des éléments de droite */
-#contact > div:nth-child(2) {
-	padding-right: 0;
-}
 #contact div > div:last-child {
 	height: 100%;
-	min-height: 368px;
-	padding-right: 0;
+	min-height: 400px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 #contact div > div:last-child img {
 	height: 50%;
