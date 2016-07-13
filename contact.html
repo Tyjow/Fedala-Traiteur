@@ -48,51 +48,90 @@
 		<!-- formulaire de contact -->
 		<form role="form">
 			<h3>Contactez-nous</h3>
-			<div class="form-group">
-				<h4>Type d’évenement :</h4>
-				<label class="checkbox"><input type="checkbox"/>Mariage</label>
-				<label class="checkbox"><input type="checkbox"/>Baptême</label>
-				<label class="checkbox"><input type="checkbox"/>Cocktail</label>
-				<label class="checkbox"><input type="checkbox"/>Départ en retraite</label>
+			<h4>Type d’évenement :</h4>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Mariage</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Baptême</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Cocktail</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Départ en retraite</label>
 			</div>
 			<div class="form-group">
-				<label class="form-group-inline">Date<input type="form-group"/></label>
-				<label class="form-group-inline">Lieu<input type="form-group"/></label>
-				<label class="form-group-inline">Nombre d’invités<input type="form-group"></label>
+				<label>Date</label>
+				<input class="form-control"/>
 			</div>
 			<div class="form-group">
-				<h4>Réception :</h4>
-				<label class="checkbox"><input type="checkbox"/>Assise</label>
-				<label class="checkbox"><input type="checkbox"/>Debout</label>
-				<label class="checkbox"><input type="checkbox"/>Autre</label><br>
+				<label>Lieu</label>
+				<input class="form-control"/>
 			</div>
 			<div class="form-group">
-				<h4>Type de réception:</h4>
-				<label class="checkbox"><input type="checkbox"/>Déjeuner</label>
-				<label class="checkbox"><input type="checkbox"/>Dîner</label>
-				<label class="checkbox"><input type="checkbox"/>Soirée</label>
-				<label class="checkbox"><input type="checkbox"/>Autre</label>
+				<label>Nombre d’invités</label>
+				<input class="form-control"/>
 			</div>
-			<div class="form-group">
-				<h4>Prestations:</h4>
-				<label class="checkbox"><input type="checkbox"/>Vaisselle</label>
-				<label class="checkbox"><input type="checkbox"/>Mobilier</label>
-				<label class="checkbox"><input type="checkbox"/>Boissons</label>
-				<label class="checkbox"><input type="checkbox"/>Décoration</label>
-				<label class="checkbox"><input type="checkbox"/>Nappage</label>
-				<label class="checkbox"><input type="checkbox"/>Personnel de service</label>
+			<h4>Réception :</h4>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Assise</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Debout</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Autre</label>
+			</div>
+			<h4>Type de réception:</h4>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Déjeuner</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Dîner</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Soirée</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Autre</label>
+			</div>
+			<h4>Prestations:</h4>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Vaisselle</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Mobilier</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Boissons</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Décoration</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Nappage</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"/>Personnel de service</label>
 			</div>
 			<div class="form-group">
 				<label>Nom</label>
-				<input type="text" class="form-control"/>
-				<label>Adresse e-mail</label>
-				<input type="email" class="form-control"/>
-				<label>Téléphone</label>
-				<input type="tel" class="form-control"/>
-				<label for="textarea">Informations complémentaires :</label>
-				<textarea type="textarea" class="form-control"></textarea>
+				<input class="form-control"/>
 			</div>
-			<button>Envoyer</button>
+			<div class="form-group">
+				<label>Adresse e-mail</label>
+				<input class="form-control"/>
+			</div>
+			<div class="form-group">
+				<label>Téléphone</label>
+				<input class="form-control"/>
+			</div>
+			<div class="form-group">
+				<label>Informations complémentaires</label>
+				<textarea class="form-control"></textarea>
+			</div>
+			<button type="submit">Envoyer</button>
 		</form>
 	</body>
 </html>
