@@ -47,27 +47,33 @@
 		</nav>
 		<!-- formulaire de contact -->
 		<form role="form">
-			<div>
-				<label>Contactez-nous</label>
+			<h3>Contactez-nous</h3>
+			<div class="form-group">
 				<h4>Type d’évenement :</h4>
 				<label class="checkbox"><input type="checkbox"/>Mariage</label>
 				<label class="checkbox"><input type="checkbox"/>Baptême</label>
 				<label class="checkbox"><input type="checkbox"/>Cocktail</label>
 				<label class="checkbox"><input type="checkbox"/>Départ en retraite</label>
+			</div>
+			<div class="form-group">
 				<label class="form-group-inline">Date<input type="form-group"/></label>
 				<label class="form-group-inline">Lieu<input type="form-group"/></label>
 				<label class="form-group-inline">Nombre d’invités<input type="form-group"></label>
+			</div>
+			<div class="form-group">
 				<h4>Réception :</h4>
 				<label class="checkbox"><input type="checkbox"/>Assise</label>
 				<label class="checkbox"><input type="checkbox"/>Debout</label>
 				<label class="checkbox"><input type="checkbox"/>Autre</label><br>
 			</div>
-			<div class="col-md-6">
+			<div class="form-group">
 				<h4>Type de réception:</h4>
 				<label class="checkbox"><input type="checkbox"/>Déjeuner</label>
 				<label class="checkbox"><input type="checkbox"/>Dîner</label>
 				<label class="checkbox"><input type="checkbox"/>Soirée</label>
 				<label class="checkbox"><input type="checkbox"/>Autre</label>
+			</div>
+			<div class="form-group">
 				<h4>Prestations:</h4>
 				<label class="checkbox"><input type="checkbox"/>Vaisselle</label>
 				<label class="checkbox"><input type="checkbox"/>Mobilier</label>
@@ -75,24 +81,18 @@
 				<label class="checkbox"><input type="checkbox"/>Décoration</label>
 				<label class="checkbox"><input type="checkbox"/>Nappage</label>
 				<label class="checkbox"><input type="checkbox"/>Personnel de service</label>
-				<div class="form-group">
-					<label>Nom</label>
-					<input type="text" class="form-control"/>
-				</div>
-				<div class="form-group">
-					<label>Adresse e-mail</label>
-					<input type="email" class="form-control"/>
-				</div>
-				<div class="form-group">
-					<label>Téléphone</label>
-					<input type="tel" class="form-control"/>
-				</div>
-				<div class="form-group">
-					<label for="textarea">Informations complémentaires :</label>
-					<textarea type="textarea" class="form-control"></textarea>
-				</div>
-				<button>Envoyer</button>
 			</div>
+			<div class="form-group">
+				<label>Nom</label>
+				<input type="text" class="form-control"/>
+				<label>Adresse e-mail</label>
+				<input type="email" class="form-control"/>
+				<label>Téléphone</label>
+				<input type="tel" class="form-control"/>
+				<label for="textarea">Informations complémentaires :</label>
+				<textarea type="textarea" class="form-control"></textarea>
+			</div>
+			<button>Envoyer</button>
 		</form>
 	</body>
 </html>
