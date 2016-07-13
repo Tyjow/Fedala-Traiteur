@@ -24,7 +24,7 @@
 
 /* style des colonnes */
 
-#contact .col-md-4 {
+#contact > .row:nth-child(2) > .col-md-4 {
 	padding-left: 30px;
 	padding-right: 30px;
 }
