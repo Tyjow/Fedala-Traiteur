@@ -9,3 +9,9 @@
 #contact .btn {
 	border-radius: 0;
 }
+
+/* style des champs */
+
+#contact .form-control {
+	border-radius: 0;
+}
