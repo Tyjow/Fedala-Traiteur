@@ -10,9 +10,7 @@
 		<!-- style de la barre de navigation -->
 		<link rel="stylesheet" type="text/css" href="navbar.css">
 		<!-- style de la page -->
-		<!--
 		<link rel="stylesheet" type="text/css" href="contact.css">
-		-->
 		<script src="https://use.fontawesome.com/50d70c63af.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="parallax/parallax.js"></script>
@@ -46,100 +44,110 @@
 			</div>
 		</nav>
 		<!-- formulaire de contact -->
-		<form role="form">
+		<form id="contact" role="form row">
 
-			<h3>Contactez-nous</h3>
-
-			<h4>Type d’événement :</h4>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Mariage</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Baptême</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Cocktail</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Départ en retraite</label>
+			<div class="col-md-12">
+				<h3>Contactez-nous</h3>
 			</div>
 
-			<div class="form-group">
-				<label>Date :</label>
-				<input class="form-control"/>
-			</div>
-			<div class="form-group">
-				<label>Lieu :</label>
-				<input class="form-control"/>
-			</div>
-			<div class="form-group">
-				<label>Nombre d’invités :</label>
-				<input class="form-control"/>
+			<div class="col-md-4">
+				<h4>Type d’événement :</h4>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Mariage</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Baptême</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Cocktail</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Départ en retraite</label>
+				</div>
+
+				<div class="form-group">
+					<label>Date :</label>
+					<input class="form-control"/>
+				</div>
+				<div class="form-group">
+					<label>Lieu :</label>
+					<input class="form-control"/>
+				</div>
+				<div class="form-group">
+					<label>Nombre d’invités :</label>
+					<input class="form-control"/>
+				</div>
 			</div>
 
-			<h4>Réception :</h4>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Assise</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Debout</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Autre</label>
+			<div class="col-md-4">
+				<h4>Réception :</h4>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Assise</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Debout</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Autre</label>
+				</div>
+
+				<h4>Type de réception :</h4>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Déjeuner</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Dîner</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Soirée</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Autre</label>
+				</div>
+
+				<h4>Prestations :</h4>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Vaisselle</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Mobilier</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Boissons</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Décoration</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Nappage</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"/>Personnel de service</label>
+				</div>
 			</div>
 
-			<h4>Type de réception :</h4>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Déjeuner</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Dîner</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Soirée</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Autre</label>
-			</div>
-
-			<h4>Prestations :</h4>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Vaisselle</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Mobilier</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Boissons</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Décoration</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Nappage</label>
-			</div>
-			<div class="checkbox">
-				<label><input type="checkbox"/>Personnel de service</label>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>Nom :</label>
+					<input class="form-control"/>
+				</div>
+				<div class="form-group">
+					<label>Adresse e-mail :</label>
+					<input class="form-control"/>
+				</div>
+				<div class="form-group">
+					<label>Téléphone :</label>
+					<input class="form-control"/>
+				</div>
+				<div class="form-group">
+					<label>Informations complémentaires :</label>
+					<textarea class="form-control"></textarea>
+				</div>
 			</div>
 
-			<div class="form-group">
-				<label>Nom :</label>
-				<input class="form-control"/>
+			<div class="col-md-12">
+				<button type="submit">Envoyer</button>
 			</div>
-			<div class="form-group">
-				<label>Adresse e-mail :</label>
-				<input class="form-control"/>
-			</div>
-			<div class="form-group">
-				<label>Téléphone :</label>
-				<input class="form-control"/>
-			</div>
-			<div class="form-group">
-				<label>Informations complémentaires :</label>
-				<textarea class="form-control"></textarea>
-			</div>
-
-			<button type="submit">Envoyer</button>
 
 		</form>
 	</body>
