@@ -28,3 +28,17 @@
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
+/* style du texte */
+#contact h2 {
+	margin-bottom: 30px;
+	font-size: 2em;
+	font-weight: 700;
+}
+#contact label {
+	font-size: 1.3em;
+}
+#contact .form-control,
+#contact .checkbox label {
+	font-size: 1.2em;
+}
