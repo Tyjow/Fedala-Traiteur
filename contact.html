@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<!-- style commun -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- style de la barre de navigation -->
+		<link rel="stylesheet" type="text/css" href="navbar.css">
+		<!-- style de la page -->
+		<!--
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		-->
+		<script src="https://use.fontawesome.com/50d70c63af.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="parallax/parallax.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="scroll.js"></script>
+		<title>Fédala Déco Traiteur</title>
+	</head>
+	<body class="container-fluid nopad">
+		<!-- barre de navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Fédala Déco Traiteur</a>
+			</div>
+			<div class="collapse navbar-collapse" id="MenuNavbar">
+				<ul class="nav navbar-nav nav-middle">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="traiteur-1.html">Traiteur</a></li>
+					<li><a href="#">Evènements</a></li>
+					<li><a href="location.html">Locations</a></li>
+					<li><a href="contact.html">Contacter</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Se Connecter</a></li>
+					<li><a href="#">S’enregistrer</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- formulaire de contact -->
+		<div class="form-group row">
+			<div class="col-md-6"style="background-color: #dedef8; box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+				<label>CONTACTEZ-NOUS</label>
+				<form>
+					<h4>Type d'évenement:</h4>
+					<label class="checkbox"><input type="checkbox" value=""/>Mariage</label>
+					<label class="checkbox"><input type="checkbox" value=""/>Baptême</label>
+					<label class="checkbox"><input type="checkbox" value=""/>Cocktails</label>
+					<label class="checkbox"><input type="checkbox" value=""/>Départ en retraite</label><br/>
+					<label class="form-group-inline">Date<input type="form-group" value=""/></label><br/>
+					<label class="form-group-inline">Lieu<input type="form-group" value=""/></label><br/>
+					<label class="form-group-inline">Nombre d'invité<input type="form-group" value=""></label>
+				</form></br>
+				<h4>Réception:</h4>
+				<label class="checkbox"><input type="checkbox" value=""/>Assise</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Débout</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Autre</label><br>
+			</div>
+			<div class="col-md-6"style="background-color: #dedef8; box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+				<h4>Type de réception:</h4>
+				<label class="checkbox"><input type="checkbox" value=""/>Déjeuner</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Diner</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Soirée</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Autre</label></br>
+				<h4>Préstations:</h4>
+				<label class="checkbox"><input type="checkbox" value=""/>Vaisselle</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Mobilier</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Boisson</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Décoration</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Nappage</label>
+				<label class="checkbox"><input type="checkbox" value=""/>Personnel de service</label><br>
+				<form>
+					<div class="form-group">
+						<label for="exampleInputName2">Nom</label>
+						<input type="text" class="form-control" id="exampleInputName2"/>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1"/>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputName2">Tél</label>
+						<input type="Tél" class="form-control" id="exampleInputTél"/>
+					</div>
+					<div class="form-group">
+						<label for="textarea">Informations complémentaire : </label>
+						<textarea id="textarea" type="textarea" class="form-control"></textarea>
+					</div>
+					<button>Envoyer</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
