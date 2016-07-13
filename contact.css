@@ -3,3 +3,9 @@
 #contact {
 	padding: 100px 30px 0 30px;
 }
+
+/* style du bouton */
+
+#contact .btn {
+	border-radius: 0;
+}
