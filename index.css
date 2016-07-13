@@ -1,16 +1,60 @@
 /*Header Main*/
 
 header {
-  height: 600px;
+  height: 500px;
 }
 
-.space {
-  height: 70px;
-  background-color: #FFF;
+.img-container {
+  position: relative;
 }
 
-.carousel-indicators {
-  bottom: -60px;
+.img-left-background,
+.img-center-background,
+.img-right-background {
+  position: absolute;
+  z-index: -1;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 2s;
+}
+
+.img-left-background {
+  background-image: url(img/traiteur-accueil.jpg);
+}
+
+.img-center-background {
+  background-image: url(img/Evenement-accueil.jpg);
+}
+
+.img-right-background {
+  background-image: url(img/location-accueil.jpg);
+}
+
+.img-foreground {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entre {
+  width: 70%;
+  height: 60px;
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.bloc-primary {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .carousel-indicators li {
@@ -50,14 +94,14 @@ header {
 
 .bg-primary {
 	padding: 50px 0;
-	background-color: #e8b3e9;
+	background-color: rgba(0,0,0,0.9);
+  width: 95%;
+  margin: auto;
 }
 
-.parallax-window {
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.intro {
+  border: 0;
+  margin-bottom: 30px;
 }
 
 /*.bg-mid {
@@ -88,7 +132,9 @@ header {
 
 h1 {
 	padding: 0 0 30px 0;
-  font-size: 50px;
+  font-size: 90px;
+  font-family: 'Great Vibes', cursive;
+  color: #66ff99 !important;
 }
 
 .bg-primary h2 {
@@ -107,15 +153,20 @@ h3 {
 }
 
 .well-h3 {
-  background-color: #cc90ce;
+  background-color: rgba(102,255,153,0.6);
   padding: 15px 0;
   text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  text-transform: capitalize;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 p {
-	font-family: "Lora";
+	font-family: 'Roboto';
 	font-size: 15px;
-  color: #333333;
+  color: #fff;
   font-style: italic;
 }
 
@@ -145,8 +196,9 @@ p {
   height: 445px;
   padding-right: 15px;
   padding-top: 15px;
-  background-color: #cc90ce;
+  background-color: rgba(102,255,153,0.6);
   margin-top: -55px;
+  border-radius: 5px;
 }
 
 .col-md-6 {
@@ -156,18 +208,24 @@ p {
 .effect {
   width: 250px;
   height: 200px;
-  background: #e97f8e;
+  background: #ffffb3;
   position: relative;
   margin-bottom: 15px;
 }
 
 .effect:hover img {
-  opacity: 0.3;
+  opacity: 0.6;
   transition: all 0.50s;
 }
 
 .effect:hover .overlay {
   opacity: 1;
+}
+
+.title-hover {
+  color: #000;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
 }
 
 .overlay {
@@ -182,20 +240,30 @@ p {
   font-size: 45px;
 }
 
+.footer-primary {
+  width: 95%;
+  margin: auto;
+  padding: 30px 0;
+  background-color: rgba(0,0,0,0.9);
+  margin-top: 30px;
+}
+
 .carous-text {
   margin: auto;
   text-align: center;
-  color: #e8b3e9;
-  font-size: 50px;
-  font-weight: bold;
+  color: #66ff99;
+  font-size: 70px;
+  font-weight: 300;
+  font-family: 'Great Vibes', cursive;
 }
 
 .carous-text-name {
   margin: auto;
   text-align: center;
-  color: #e8b3e9;
-  font-size: 50px;
-  font-weight: bold;
+  color: #66ff99;
+  font-size: 70px;
+  font-weight: 300;
+  font-family: 'Great Vibes', cursive;
 }
 
 .carous-inner2 {

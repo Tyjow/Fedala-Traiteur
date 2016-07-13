@@ -1,11 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Philosopher);
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
 body {
-	width: 100%;
-	height: 100%;
-	margin: auto;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 * {

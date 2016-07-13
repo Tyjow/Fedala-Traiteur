@@ -24,22 +24,22 @@ $(document).ready(function(){
 });
 
 // taille des initiales de chaque mot sur une ligne
-$(document).ready(function() {
+/*$(document).ready(function() {
     var words = $('h1').text().split(' ');
     var html = '';
     $.each(words, function() {
         html += '<span style="font-size:80px">'+this.substring(0,1)+'</span>'+this.substring(1) + ' ';
     });
     $('h1').html(html);
-});
-$(document).ready(function() {
+});*/
+/*$(document).ready(function() {
     var words = $('.navbar-brand').text().split(' ');
     var html = '';
     $.each(words, function() {
-        html += '<span style="font-size:45px">'+this.substring(0,1)+'</span>'+this.substring(1) + ' ';
+        html += '<span style="font-weight:600">'+this.substring(0,1)+'</span>'+this.substring(1) + ' ';
     });
     $('.navbar-brand').html(html);
-});
+});*/
 
 // fonctions de gestion du flou des images (traiteur-1.html)
 function addBlur(target) {
