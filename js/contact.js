@@ -13,5 +13,8 @@ function setBackground(caller) {
 			var imageURL = "img/contact/background-retraite.jpg";
 			break;
 	}
-	document.getElementById("contact-background").style.backgroundImage = "url('" + imageURL + "')";
+	var bgDiv = document.getElementById("contact-background");
+	bgDiv.style.opacity = '0';
+	setTimeout (function() { bgDiv.style.backgroundImage = "url('" + imageURL + "')"; }, 250);
+	setTimeout (function() { bgDiv.style.opacity = '1'; }, 250);
 }
