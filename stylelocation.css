@@ -12,11 +12,11 @@
 
 #onglets {
   font-size: 19px;
-  font-family: monospace;
   list-style-type : none;
   margin-left : 0;
   margin-bottom: 0;
-  margin-top: 80px;
+  margin-top: 250px;
+  transition: all 0.50s;
 }
 
 #onglets > li {
@@ -45,7 +45,7 @@
 }
 
 .nav .open > a {
-  background-color: rgba(0,0,0,0.9) !important;
+  background-color: rgba(102, 255, 153, 0.6) !important;
 }
 
 #onglets li.active {
@@ -60,13 +60,13 @@
   transition: all 0.30s;
   text-align: center;
   height: 55px;
+  font-family: monospace;
   /*border-radius: 5px;*/
 }
 
 #onglets a:hover {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(102, 255, 153, 0.6);
   border-bottom-style: none !important;
-  border-bottom-color: #e8b3e9;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -83,7 +83,8 @@ border-radius: 0;
   padding: 50px 0;
   background-color: rgba(0,0,0,0.9);
   color: #fff;
-  margin-top: 80px;
+  margin-top: 180px;
+  transition: all 0.50s;
 }
 
 header {
@@ -110,4 +111,8 @@ header {
 .marg-top {
   margin-top: 50px;
   border-top: 1px solid #fff;
+}
+
+.parallax-window {
+  min-height: 100vh;
 }
