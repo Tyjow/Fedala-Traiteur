@@ -18,7 +18,7 @@
 }
 
 .img-center-background {
-	background-image: url(img/accueil4.jpg);
+	background-image: url(img/mariag.jpg);
 }
 
 .img-right-background {
@@ -41,6 +41,14 @@
     justify-content: center;
     font-size: 30px;
     font-family: monospace;
+    text-decoration: none;
+}
+
+.entre:hover,
+.entre:focus,
+.entre:active{
+    text-decoration: none;
+    color: white;
 }
 
 /*

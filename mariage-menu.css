@@ -121,12 +121,3 @@ a:hover a:focus{
     background-size: cover;
     background-position: center;
 }
-
-lg-ico-1 {
-    background-image: url('img/wedding.svg');
-    height: 80px;
-    width: 80px;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-}
