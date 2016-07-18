@@ -110,8 +110,14 @@ a:hover a:focus{
     padding-left: 0px;
 }
 
-.pad-right {
-    padding-right: 50px;
+.pos-right {
+    position: relative;
+    right: 50px;
+}
+
+.pos-left {
+    position: relative;
+    left: 50px;
 }
 .ico-1{
     background-image: url('img/wedding.svg');
@@ -120,4 +126,14 @@ a:hover a:focus{
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
+    display: inline-block;
+}
+
+.position {
+    position: relative;
+    top: 10px;
+}
+
+.margin {
+    margin-top: 0;
 }
