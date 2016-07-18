@@ -1,30 +1,36 @@
+* {
+  font-family: "roboto";
+}
+
 .space {
   height: 80px;
 }
 
-.space-pink {
-  background-color: #e8b3e9;
+.space-color {
+  background-color: rgba(0,0,0,0.9);
 }
 
 #onglets {
-  font : bold 19px "Lora";
+  font-size: 19px;
+  font-family: monospace;
   list-style-type : none;
   margin-left : 0;
   margin-bottom: 0;
+  margin-top: 80px;
 }
 
 #onglets > li {
   float : left;
   height : 55px;
-  background-color: rgba(138, 129, 175, 0.7);
+  background-color: rgba(0,0,0,0.8);
   margin : 2px 15px 0 2px !important;
-  border : 1px solid #9EA0A1;
   border-bottom-style: none;
+  /*border-radius: 5px;*/
   width: 250px;
 }
 
 #onglets > li > ul > li {
-  background-color: rgba(138, 129, 175, 0.7);
+  background-color: rgba(0,0,0,0.9);
 }
 
 #onglets > li > ul > li > a {
@@ -34,17 +40,17 @@
 }
 
 #onglets > li > ul > li > a:hover {
-  background-color: #e8b3e9;
-  color: rgb(138, 129, 175);
+  background-color: rgba(0,0,0,0.9);
+  color: #fff;
 }
 
 .nav .open > a {
-  background-color: rgba(138, 129, 175, 0.7) !important;
+  background-color: rgba(0,0,0,0.9) !important;
 }
 
 #onglets li.active {
   border-bottom-style: none;
-  background-color: #e8b3e9;
+  background-color: rgba(0,0,0,0.9);
 }
 
 #onglets a {
@@ -54,16 +60,17 @@
   transition: all 0.30s;
   text-align: center;
   height: 55px;
+  /*border-radius: 5px;*/
 }
 
 #onglets a:hover {
-  background-color: rgba(138, 129, 175, 0.7);
+  background-color: rgba(0,0,0,0.9);
   border-bottom-style: none !important;
   border-bottom-color: #e8b3e9;
 }
 
 .navbar-nav > li > .dropdown-menu {
-background-color: #cc90ce;
+background-color: #66ff99;
 text-align: center;
 margin-left: -1px;
 width: 250px;
@@ -71,29 +78,36 @@ border-radius: 0;
 }
 
 .content {
-  height: 200px;
-  padding: 100px 0;
+  margin: auto;
+  width: 95%;
+  padding: 50px 0;
+  background-color: rgba(0,0,0,0.9);
+  color: #fff;
+  margin-top: 80px;
 }
 
 header {
-  height: 275px;
-  padding-bottom: 130px;
+  height: 290px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/header-location.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .pic {
-  width: 250px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .flex {
   display: none;
   justify-content: center;
   align-items: center;
+}
+
+.marg-top {
+  margin-top: 50px;
+  border-top: 1px solid #fff;
 }
