@@ -69,7 +69,9 @@ body {
 	font-weight: 300;
 	color: #66FF99;
 }
-#contact .form-control,
+#contact .form-control {
+	font-size: 1.2em;
+}
 #contact .checkbox label {
 	font-size: 1.2em;
 	color: #EEE;
