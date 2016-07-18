@@ -29,6 +29,27 @@ a:hover a:focus{
     color: #333;
 }
 
+.acceuil {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-bottom:none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.acceuil:hover, .acceuil:active, .acceuil:focus {
+    width: 75px;
+    height: 55px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid black;
+}
+
 .entre:hover,.entre:active,.entre:focus {
     width: 75px;
     height: 55px;
@@ -68,7 +89,7 @@ a:hover a:focus{
 }
 .menu {
     position: fixed;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .contenu-entre {
