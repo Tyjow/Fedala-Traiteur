@@ -6,7 +6,7 @@
 				<!-- style commun -->
             <link rel="stylesheet" type="text/css" href="mariage-menu.css">
 				<!-- style de la page -->
-            <link rel="stylesheet" href="traiteur-2.css">
+
 
             <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
             <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -37,7 +37,10 @@
                 <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
                 </div>
                 </div>
-                <div class="menu">
+                <div id="menu" class="menu">
+                    <a href="index.html" class="acceuil">
+                        <div class="fa fa-home fa-3x"></div>
+                    </a>
                      <a href="traiteur-2.html" class="entre">
                         <div class="fa fa-cutlery fa-2x"></div>
                     </a>
@@ -48,23 +51,37 @@
                     <div class="fa fa-ship fa-2x"></div>
                     </a>
                 </div>
+                
                 <div class="nopad right col-xs-12 col-sm-6 col-md-6">
-            <div class="img-1 fullwidth"></div>
+                    <div class="img-1 fullwidth"></div>
                 </div>
+                
             </div>
+            
                 <div class="row">
                     <div class="col-md-6 pad-md-6">
-            <div class="img-2 fullwidth left"></div>
+                        <div onscroll="changementDEcote" class="img-2 fullwidth left"></div>
                     </div>
                     <div class="col-md-6 pad-md-6">
+                        
                     <div class="contenu-entre text-center ">
                         <p class="pad-bot pad-top">Epicureum esse quo inquam praesertim.</p>
-                <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
-                <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
-                <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
-                        </div>
+                        <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
+                        <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
+                        <p class="pad-bot">Epicureum esse quo inquam praesertim.</p>
                     </div>
+                    </div>
+                    
                 </div>
         </div>
+        <script>
+            
+            var menu = document.getElementById("menu");
+            
+            function changementDEcote (){
+                menu.style.cssFloat = "right"
+            }
+            
+        </script>
     </body>
 </html>

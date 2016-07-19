@@ -66,6 +66,26 @@ a:hover a:focus{
     height: 55px;
     color: #333;
 }
+.acceuil {
+    width: 65px;
+    height: 45px;
+    border: 1px solid black;
+    border-bottom:none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.acceuil:hover, .acceuil:active, .acceuil:focus {
+    width: 75px;
+    height: 55px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid black;
+}
 .menu {
     position: fixed;
     padding-top: 80px;
