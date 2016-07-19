@@ -22,7 +22,7 @@
 		<title>Fedala - Contact</title>
 	</head>
 
-	<body class="container-fluid nopad">
+	<body class="container-fluid nopad" onload="setBackgroundInitial()" >
 
 		<header>
 
@@ -74,7 +74,7 @@
 
 					<div class="form-group">
 						<label>Type d’événement :</label>
-						<select class="form-control" onchange="setBackground(this)">
+						<select id="selectEvent" class="form-control" onchange="setBackground()">
 							<option>Mariage</option>
 							<option>Baptême</option>
 							<option>Cocktail</option>
@@ -115,6 +115,9 @@
 							<option>Déjeuner</option>
 							<option>Dîner</option>
 							<option>Soirée</option>
+							<option>Déjeuner + Dîner</option>
+							<option>Dîner + Soirée</option>
+							<option>Déjeuner + Dîner + Soirée</option>
 							<option>Autre</option>
 						</select>
 					</div>
