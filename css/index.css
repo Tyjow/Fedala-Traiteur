@@ -20,15 +20,15 @@ header {
 }
 
 .img-left-background {
-  background-image: url(img/traiteur-accueil.jpg);
+  background-image: url(../img/traiteur-accueil.jpg);
 }
 
 .img-center-background {
-  background-image: url(img/Accueil-Event.jpg);
+  background-image: url(../img/Accueil-Event.jpg);
 }
 
 .img-right-background {
-  background-image: url(img/location-accueil.jpg);
+  background-image: url(../img/location-accueil.jpg);
 }
 
 .img-foreground {
@@ -105,7 +105,7 @@ header {
 }
 
 /*.bg-mid {
-	background-image: url(img/header4.jpg);
+	background-image: url(../img/header4.jpg);
   background-size: cover;
   background-position: 25% 30%;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ header {
 }*/
 
 /*.bg-last {
-  background-image: url(img/footer.jpg);
+  background-image: url(../img/footer.jpg);
   background-size: cover;
   background-position: 25% 30%;
   background-repeat: no-repeat;
