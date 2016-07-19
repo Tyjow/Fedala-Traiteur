@@ -5,14 +5,22 @@
 }
 
 .navbar-default.scroll {
-	background-color: rgba(102,255,153,0.6);
+	background-color: rgba(102,255,153,0.7);
 }
 
 .navbar-default .navbar-header .navbar-brand,
 .navbar-default .navbar-header .navbar-brand.scroll,
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a.scroll {
-	color: #FFF;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
+
+a:focus{
+	outline: none;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
