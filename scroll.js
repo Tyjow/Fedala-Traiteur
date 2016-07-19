@@ -52,9 +52,11 @@ function remBlur(target) {
 // fonction de gestion du sous menu location (location.html)
 function show(target) {
       var list_hide = document.getElementsByClassName('cacher');
-      var i;
-      for (i = 0; i < list_hide.length; i++) {
+      for (var i = 0; i < list_hide.length; i++) {
         list_hide[i].style.display = 'none';
       }
+
       document.getElementById(target).style.display = 'flex';
+      document.getElementById('content-height').style.marginTop = '80px';
+      document.getElementById('onglets').style.marginTop = '80px';
 }
