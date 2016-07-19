@@ -14,15 +14,15 @@
 }
 
 .img-left-background {
-	background-image: url(img/traiteur-1.jpeg);
+	background-image: url(../img/traiteur-1.jpeg);
 }
 
 .img-center-background {
-	background-image: url(img/mariag.jpg);
+	background-image: url(../img/mariag.jpg);
 }
 
 .img-right-background {
-	background-image: url(img/img-1.jpeg);
+	background-image: url(../img/img-1.jpeg);
 }
 
 .img-foreground {
