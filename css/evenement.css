@@ -16,18 +16,15 @@
     background-size: cover;
     width: 100%;
     height: 350px;
+    transition: 2s;
 }
-
-.img-1:hover {
-    opacity:0.5;
-}
-
 .img-2 {
     background-image: url(../img/evenement-traiteur.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 350px;
+    transition: 2s;
 }
 
 .img-3 {
@@ -36,6 +33,7 @@
     background-size: cover;
     width: 100%;
     height: 350px;
+    transition: 2s;
 }
 
 .img-4 {
@@ -44,6 +42,7 @@
     background-size: cover;
     width: 100%;
     height: 350px;
+    transition: 2s;
 }
 
 .img-5 {
@@ -52,6 +51,7 @@
     background-size: cover;
     width: 100%;
     height: 350px;
+    transition: 2s;
 }
 
 .img-6 {
@@ -60,25 +60,36 @@
     background-size: cover;
     width: 100%;
     height: 350px;
+    transition: 2s;
 }
 
-.police {
-    font-size: 80px;
-    color: white !important;
+
+.text {
+    position: absolute;
+    border-top: 1px solid white;
+    z-index: 999;
+    color: white;
+    margin-left: 170px;
+    margin-top: 140px;
+    font-size: 70px;
     opacity: 0;
-    width: 100%;
-    height:350px;
-    padding-top: 100px;
-    
+    transition: 1s
 }
 
-.police:hover{
+.text:hover {
     opacity: 1;
+    transition: 1s;
 }
 
-.effect {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    background: black;
+img {
+    transition: 1s;
 }
+
+.black {
+        filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -moz-filter: brightness(50%);
+        -o-filter: brightness(50%);
+        -ms-filter: brightness(50%);
+}
+
