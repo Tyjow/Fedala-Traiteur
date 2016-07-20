@@ -62,12 +62,12 @@ body {
 #contact h2 {
 	margin-bottom: 30px;
 	font-size: 2em;
-	font-weight: 700;
+	font-weight: 500;
 	color: #66FF99;
 }
 #contact label {
 	font-size: 1.3em;
-	font-weight: 300;
+	font-weight: 400;
 	color: #66FF99;
 }
 #contact .form-control {
