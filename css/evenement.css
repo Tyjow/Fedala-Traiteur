@@ -11,7 +11,7 @@
 }
 
 .img-1 {
-    background-image: url(img/evenement-mariage.jpg);
+    background-image: url(../img/evenement-mariage.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -23,7 +23,7 @@
 }
 
 .img-2 {
-    background-image: url(img/evenement-traiteur.jpg);
+    background-image: url(../img/evenement-traiteur.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -31,7 +31,7 @@
 }
 
 .img-3 {
-    background-image: url(img/evenement-retraite.jpg);
+    background-image: url(../img/evenement-retraite.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -39,7 +39,7 @@
 }
 
 .img-4 {
-    background-image: url(img/evenement-communion.jpg);
+    background-image: url(../img/evenement-communion.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -47,7 +47,7 @@
 }
 
 .img-5 {
-    background-image: url(img/evenemnt-noel.jpg);
+    background-image: url(../img/evenemnt-noel.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -55,7 +55,7 @@
 }
 
 .img-6 {
-    background-image: url(img/Evenement-accueil.jpg);
+    background-image: url(../img/Evenement-accueil.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
