@@ -1,5 +1,5 @@
 // scrollbar - taille réduite au défilement
-$(document).ready(function(){       
+$(function(){
    var scroll_start = 0;
    var startchange = $('#change');
    var offset = startchange.offset();
