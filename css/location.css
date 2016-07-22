@@ -61,7 +61,8 @@
   transition: all 0.30s;
   text-align: center;
   height: 55px;
-  font-family: monospace;
+  font-family: 'roboto';
+  letter-spacing: 2px;
   /*border-radius: 5px;*/
 }
 
