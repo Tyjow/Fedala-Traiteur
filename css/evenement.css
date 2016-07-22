@@ -10,78 +10,44 @@
     padding-left: 0px;
 }
 
-.img-1 {
-    background-image: url(../img/evenement-mariage.jpg);
+.img {
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 350px;
     transition: 2s;
+}
+.img-1 {
+    background-image: url(../img/evenement-mariage.jpg);
 }
 .img-2 {
     background-image: url(../img/evenement-traiteur.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    transition: 2s;
 }
-
 .img-3 {
     background-image: url(../img/evenement-retraite.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    transition: 2s;
 }
-
 .img-4 {
     background-image: url(../img/evenement-communion.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    transition: 2s;
 }
-
 .img-5 {
     background-image: url(../img/evenemnt-noel.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    transition: 2s;
 }
-
 .img-6 {
     background-image: url(../img/Evenement-accueil.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    transition: 2s;
 }
 
 
 .text {
+		text-align: center;
+    width: 100%;
+    height: 350px;
+    line-height: 350px;
     position: absolute;
     z-index: 999;
     color: white;
-    margin-left: 170px;
-    margin-top: 140px;
     font-size: 70px;
     opacity: 0;
     transition: 1s
-}
-
-.text:hover {
-    opacity: 1;
-    transition: 1s;
-}
-
-img {
-    transition: 1s;
 }
 
 .black {
@@ -92,22 +58,25 @@ img {
         -ms-filter: brightness(50%);
 }
 
-.box-top {
+.box {
     width: 350px;
     height: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+}
+
+.box-top {
     border-top: 3px solid white;
     border-left: 3px solid white;
-    position: absolute;
     margin-top: 30px;
     margin-left: 50px;
 }
 
 .box-bottom {
-    width: 350px;
-    height: 50px;
     border-bottom: 3px solid white;
     border-right:3px solid white;
-    position: absolute;
     margin-top: 270px;
     margin-left: 200px;
 }
