@@ -7,10 +7,11 @@
 .img-right-background {
 	position: absolute;
 	z-index: -1;
-	min-height: 700px;
+	min-height: 700px;;
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: 2s;
+    background-position: center;
 }
 
 .img-left-background {
