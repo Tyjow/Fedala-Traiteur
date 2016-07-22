@@ -48,36 +48,36 @@
         <div class="row pad">
             <div class="col-md-6 nopad">
                 <div class="effect">
-       <div class="text" onmouseover="opacity('mariage', 'img-mariage')" onmouseout="noopacity('mariage','img-mariage')" id="mariage">Mariage</div>
-        <img id="img-mariage" onmouseover="opacity('mariage','img-mariage')" onmouseout="noopacity('mariage','img-mariage')" width="100%"
+       <div class="text" onmouseover="showHover('mariage', 'img-mariage')" onmouseout="hideHover('mariage','img-mariage')" id="mariage">Mariage</div>
+        <img id="img-mariage" onmouseover="showHover('mariage','img-mariage')" onmouseout="hideHover('mariage','img-mariage')" width="100%"
              height="350px" src="img/evenement-mariage.jpg" />
             </div>
                 </div>
         <div class="col-md-6 nopad">
-            <div id="traiteur" class="text" onmouseover="opacity('traiteur','img-traiteur')" onmouseout="noopacity('traiteur','img-traiteur')">Traiteur</div>
-        <div class="img-2" id="img-traiteur" onmouseover="opacity('traiteur','img-traiteur')" onmouseout="noopacity('traiteur','img-traiteur')"  ></div>
+            <div id="traiteur" class="text" onmouseover="showHover('traiteur','img-traiteur')" onmouseout="hideHover('traiteur','img-traiteur')">Traiteur</div>
+        <div class="img-2" id="img-traiteur" onmouseover="showHover('traiteur','img-traiteur')" onmouseout="hideHover('traiteur','img-traiteur')"  ></div>
             </div>
           </div>
           
         <div class="row">
             <div class="col-md-6 nopad">
-                <div id="retraite" class="text" onmouseover="opacity('retraite','img-retraite')" onmouseout="noopacity('retraite','img-retraite')">Retraite</div>
-                <div class="img-3" id="img-retraite" onmouseover="opacity('retraite','img-retraite')" onmouseout="noopacity('retraite','img-retraite')"></div>
+                <div id="retraite" class="text" onmouseover="showHover('retraite','img-retraite')" onmouseout="hideHover('retraite','img-retraite')">Retraite</div>
+                <div class="img-3" id="img-retraite" onmouseover="showHover('retraite','img-retraite')" onmouseout="hideHover('retraite','img-retraite')"></div>
             </div>
             <div class="col-md-6 nopad">
-                <div id="bapteme" class="text" onmouseover="opacity('bapteme','img-bapteme')" onmouseout="noopacity('bapteme','img-bapteme')">Baptême</div>
-                <div class="img-4" id="img-bapteme" onmouseover="opacity('bapteme','img-bapteme')" onmouseout="noopacity('bapteme','img-bapteme')"></div>
+                <div id="bapteme" class="text" onmouseover="showHover('bapteme','img-bapteme')" onmouseout="hideHover('bapteme','img-bapteme')">Baptême</div>
+                <div class="img-4" id="img-bapteme" onmouseover="showHover('bapteme','img-bapteme')" onmouseout="hideHover('bapteme','img-bapteme')"></div>
             </div>
           </div>
         
         <div class="row">
             <div class="col-md-6 nopad">
-                <div id="noel" class="text" onmouseover="opacity('noel','img-noel')" onmouseout="noopacity('noel','img-noel')">Noël</div>
-                <div class="img-5" id="img-noel" onmouseover="opacity('noel','img-noel')" onmouseout="noopacity('noel','img-noel')"></div>
+                <div id="noel" class="text" onmouseover="showHover('noel','img-noel')" onmouseout="hideHover('noel','img-noel')">Noël</div>
+                <div class="img-5" id="img-noel" onmouseover="showHover('noel','img-noel')" onmouseout="hideHover('noel','img-noel')"></div>
             </div>
             <div class="col-md-6 nopad">
-                <div id="acceuil" class="text" onmouseover="opacity('acceuil','img-acceuil')" onmouseout="noopacity('acceuil','img-acceuil')">Acceuil</div>
-                <div class="img-6" id="img-acceuil" onmouseover="opacity('acceuil','img-acceuil')" onmouseout="noopacity('acceuil','img-acceuil')"></div>
+                <div id="acceuil" class="text" onmouseover="showHover('acceuil','img-acceuil')" onmouseout="hideHover('acceuil','img-acceuil')">Acceuil</div>
+                <div class="img-6" id="img-acceuil" onmouseover="showHover('acceuil','img-acceuil')" onmouseout="hideHover('acceuil','img-acceuil')"></div>
             </div>
           </div>
         
@@ -85,29 +85,5 @@
     
     
 </body>
-    
-    <script>
-        function opacity (target, imgTarget) {
-      var mariage =  document.getElementById(target);
-        mariage.style.opacity = 1;
-        addBlack(imgTarget);
-    }
-function noopacity (target, imgTarget) {
-      var mariage =  document.getElementById(target);
-        mariage.style.opacity = 0;
-        remBlack(imgTarget);
-
-    }
-    
-function addBlack(target) {
-	document.getElementById(target).classList.add('black');
-}
-    
-function remBlack(target) {
-    document.getElementById(target).classList.remove('black');
-    }
-    
-    </script>
-
-
+<script type="text/javascript" src="js/evenement.js"></script> 
 </html>
