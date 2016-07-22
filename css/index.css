@@ -52,6 +52,13 @@ header {
   letter-spacing: 5px;
 }
 
+.entre:hover,
+.entre:focus,
+.entre:active{
+    text-decoration: none;
+    color: white;
+}
+
 .bloc-primary {
   width: 95%;
   margin: auto;
