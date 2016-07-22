@@ -70,13 +70,13 @@
 .box-top {
     border-top: 3px solid white;
     border-left: 3px solid white;
-    top: 30px;
-    left: 50px;
+    top: 40%;
+    left: 20%;
 }
 
 .box-bottom {
     border-bottom: 3px solid white;
     border-right:3px solid white;
-    bottom: 30px;
-    right: 50px;
+    bottom: 40%;
+    right: 20%;
 }
