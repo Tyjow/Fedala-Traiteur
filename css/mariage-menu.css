@@ -29,7 +29,7 @@ a:hover a:focus{
     color: #333;
 }
 
-.acceuil {
+.accueil {
     width: 65px;
     height: 45px;
     border: 1px solid black;
@@ -42,7 +42,7 @@ a:hover a:focus{
     color: #333;
 }
 
-.acceuil:hover, .acceuil:active, .acceuil:focus {
+.accueil:hover, .accueil:active, .accueil:focus {
     width: 75px;
     height: 55px;
     text-decoration: none;
