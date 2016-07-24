@@ -15,7 +15,7 @@
 		<title>Fedala - Evènements</title>
 	</head>
     
-    <body><header>
+    <header>
       <div class="container-fluid">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
@@ -43,14 +43,21 @@
         
         </div>
     </header>
-	
+	<body>
       <div class="container-fluid">
         <div class="row pad">
             <div class="col-md-6 nopad">
+<<<<<<< Updated upstream
                 <div class="box box-top box-mariage"></div>
                 <div class="box box-bottom box-mariage"></div>
        <div class="text" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')" id="mariage">Mariage</div>
                 <div class="img img-1" id="img-mariage" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')"></div>
+=======
+            
+       <div id="mariage" class="text" onmouseover="opacity('mariage', 'img-mariage')" onmouseout="noopacity('mariage','img-mariage')">Mariage</div>
+        <div id="img-mariage" class="img-1" onmouseover="opacity('mariage','img-mariage')" onmouseout="noopacity('mariage','img-mariage')">
+            </div>
+>>>>>>> Stashed changes
                 </div>
         <div class="col-md-6 nopad">
                 <div class="box box-top box-traiteur"></div>
