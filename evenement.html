@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/navbar.css">
 		<!-- style de la page -->
 		<link rel="stylesheet" type="text/css" href="css/evenement.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 		<title>Fedala - Evènements</title>
 	</head>
@@ -47,23 +48,36 @@
       <div class="container-fluid">
         <div class="row pad">
             <div class="col-md-6 nopad">
-<<<<<<< Updated upstream
+
                 <div class="box box-top box-mariage"></div>
                 <div class="box box-bottom box-mariage"></div>
-       <div class="text" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')" id="mariage">Mariage</div>
-                <div class="img img-1" id="img-mariage" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')"></div>
-=======
-            
-       <div id="mariage" class="text" onmouseover="opacity('mariage', 'img-mariage')" onmouseout="noopacity('mariage','img-mariage')">Mariage</div>
-        <div id="img-mariage" class="img-1" onmouseover="opacity('mariage','img-mariage')" onmouseout="noopacity('mariage','img-mariage')">
-            </div>
->>>>>>> Stashed changes
+                
+            <div id="tuile-1" class="tuile">
+                
+                <div class="front">
+                
+       <div id="mariage" class="text" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')" >Mariage</div>
+        <div class="img img-1" id="img-mariage" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')"></div>
                 </div>
+                <div class="back">
+                <div class="boite text-center">
+                <div class="mini-text">
+          <span class="lettrine">P</span>ostulo enim et viro si memineram nec recte facis si enim quisquam ille dicis filii ego quantum adgnosco quidem magis nemo enim spectato aut et Fanni quod si Paulum sapiens recte quidem mihi in sapiens.
+                 </div>
+              <div class="contact text-center">Contact</div>
+               </div>
+                </div>
+                </div>
+            </div>
+                
+                
+                
+                
         <div class="col-md-6 nopad">
                 <div class="box box-top box-traiteur"></div>
                 <div class="box box-bottom box-traiteur"></div>
             <div id="traiteur" class="text" onmouseover="showHover('traiteur')" onmouseout="hideHover('traiteur')">Traiteur</div>
-        <div class="img img-2" id="img-traiteur" onmouseover="showHover('traiteur')" onmouseout="hideHover('traiteur')"  ></div>
+        <div class="img img-2" id="img-traiteur" onmouseover="showHover('traiteur')" onmouseout="hideHover('traiteur')"></div>
             </div>
           </div>
           
@@ -101,5 +115,7 @@
     
     
 </body>
-<script type="text/javascript" src="js/evenement.js"></script> 
+<script type="text/javascript" src="js/evenement.js"></script>
+<script type="text/javascript" src="js/flip.js"
+></script> 
 </html>

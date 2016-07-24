@@ -31,3 +31,17 @@ function hideHover (hoverID) {
 	box[1].style.bottom = "40%";
 	box[1].style.right = "20%";
 }
+
+/* JQUERY POUR LES TUILES */
+
+
+$(function rotation(){
+    
+      $("#tuile-1").flip({
+        axis: "y",
+        reverse: false,
+        trigger: "click", 
+        speed: 1000
+          
+      });
+    });
