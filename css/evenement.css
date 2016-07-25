@@ -85,6 +85,10 @@
         height: 350px; 
 }
 
+.front {
+	cursor: pointer;
+}
+
 .back {
         background-color: black;
 }
