@@ -35,6 +35,12 @@
   font-weight: 900;
   src: local('Roboto Black'), local('Roboto-Black'), url(../fonts/Roboto-Black.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher'), url(../fonts/Philosopher.ttf) format('truetype');
+}
 /* fin de l’import des polices */
 
 body {
