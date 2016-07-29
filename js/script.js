@@ -1,4 +1,25 @@
-/* show text on hover */
+// fonctions de gestion du flou des images (traiteur-1.html)
+function addBlur(target) {
+	document.getElementById(target).classList.add('blur');
+}
+function remBlur(target) {
+	document.getElementById(target).classList.remove('blur');
+}
+
+// fonction de gestion du sous menu location (location.html)
+function show(target) {
+	var list_hide = document.getElementsByClassName('cacher');
+	for (var i = 0; i < list_hide.length; i++) {
+		list_hide[i].style.display = 'none';
+	}
+	document.getElementById(target).style.display = 'flex';
+	document.getElementById('content-height').style.marginTop = '80px';
+	document.getElementById('onglets').style.marginTop = '80px';
+}
+
+// gestion des tuiles de la page d’accueil (index.html)
+
+// affichage/masquage du texte au survol
 function showHover (hoverID) {
 	var hover =  document.getElementById(hoverID);
 	var imgID = "img-" + hoverID;
@@ -14,8 +35,6 @@ function showHover (hoverID) {
 	box[1].style.bottom = "30px";
 	box[1].style.right = "50px";
 }
-
-/* hide text when leaving hover */
 function hideHover (hoverID) {
 	var hover =  document.getElementById(hoverID);
 	var imgID = "img-" + hoverID;
@@ -32,11 +51,16 @@ function hideHover (hoverID) {
 	box[1].style.right = "20%";
 }
 
-/* JQUERY POUR LES TUILES */
-
+// effet de retournement
 $(function rotation(){
 	$(".tuile").flip({
 		axis: "y",
+		reverse: false,
+		trigger: "click", 
+		speed: 1000
+	});
+	$(".tuile-large").flip({
+		axis: "x",
 		reverse: false,
 		trigger: "click", 
 		speed: 1000
