@@ -48,3 +48,41 @@
     text-decoration: none;
     color: white;
 }
+
+.half-round {
+	top: 80px;
+	left: 575px;
+	position: fixed;
+	height:95px;
+	width:190px;
+	border-radius: 0 0 90px 90px;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 5px 2px 5px rgba(0,0,0,.6);
+}
+.half-round h2 {
+	text-align: center;
+	color: #000;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 25px;
+}
+
+.box {
+	border: 1px none #000;
+	width: 50%;
+	height: 15%;
+	position: absolute;
+	transition: 1s;
+	z-index: 1;
+}
+.box-top {
+	border-top-style: solid;
+	border-left-style: solid;
+	top: 10%;
+	left: 15%;
+}
+.box-bottom {
+	border-bottom-style: solid;
+	border-right-style: solid;
+	bottom: 30%;
+	right: 20%;
+}
