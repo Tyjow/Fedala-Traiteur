@@ -59,4 +59,10 @@ $(function rotation(){
 		trigger: "click", 
 		speed: 1000
 	});
+	$(".tuile-large").flip({
+		axis: "x",
+		reverse: false,
+		trigger: "click", 
+		speed: 1000
+	});
 });
