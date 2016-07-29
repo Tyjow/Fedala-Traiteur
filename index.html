@@ -1,162 +1,165 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<!-- style commun -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<!-- style de la barre de navigation -->
+		<link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+		<!-- style de la page -->
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/evenement.css">
+		<title>Fedala</title>
+	</head>
+	<body>
 
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- barre de navigation -->
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Fedala</a>
+				</div>
+				<div class="collapse navbar-collapse" id="MenuNavbar">
+					<ul class="nav navbar-nav nav-middle">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="traiteur-1.html">Traiteur</a></li>
+						<li><a href="evenement.html">Événements</a></li>
+						<li><a href="location.html">Locations</a></li>
+						<li><a href="contact.html">Contacter</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Se Connecter</a></li>
+						<li><a href="#">S’enregistrer</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-	<!-- style commun -->
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<!-- style de la barre de navigation -->
-	<link rel="stylesheet" type="text/css" href="css/navbar.css"/>
-	<!-- style de la page -->
-	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	
+		<div class="container-fluid">		
+
+			<!-- tuiles -->
+			<section class="row tuiles">
+				<div class="col-md-6">
+					<div class="tuile" onmouseover="showHover('mariage')" onmouseout="hideHover('mariage')">
+						<div class="front">
+							<div class="box box-top box-mariage"></div>
+							<div class="box box-bottom box-mariage"></div>
+							<h2 id="mariage">Mariage</h2>
+							<div class="img" id="img-mariage"></div>
+						</div>
+						<div class="back">
+							<div class="boite text-center">
+								<div class="mini-text">
+									<span class="lettrine">P</span>ostulo enim et viro si memineram nec recte facis si enim quisquam ille dicis filii ego quantum adgnosco quidem magis.
+								</div>
+								<div class="contact text-center"><a href="contact.html"><p>Contact</p></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="tuile" onmouseover="showHover('traiteur')" onmouseout="hideHover('traiteur')">
+						<div class="front">
+							<div class="box box-top box-traiteur"></div>
+							<div class="box box-bottom box-traiteur"></div>
+							<h2 id="traiteur">Traiteur</h2>
+							<div class="img" id="img-traiteur"></div>
+						</div>
+						<div class="back">
+							<div class="boite text-center">
+								<div class="mini-text">
+									<span class="lettrine">P</span>ostulo enim et viro si memineram nec recte facis si enim quisquam ille dicis filii ego quantum adgnosco quidem magis.
+								</div>
+								<div class="contact text-center"><a href="contact.html"><p>Contact</p></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="row tuiles">
+				<div class="col-md-6">
+					<div class="tuile" onmouseover="showHover('retraite')" onmouseout="hideHover('retraite')">
+						<div class="front">
+							<div class="box box-top box-retraite"></div>
+							<div class="box box-bottom box-retraite"></div>
+							<h2 id="retraite">Départ en retraite</h2>
+							<div class="img" id="img-retraite"></div>
+						</div>
+						<div class="back">
+							<div class="boite text-center">
+								<div class="mini-text">
+									<span class="lettrine">P</span>ostulo enim et viro si memineram nec recte facis si enim quisquam ille dicis filii ego quantum adgnosco quidem magis.
+								</div>
+								<div class="contact text-center"><a href="contact.html"><p>Contact</p></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="tuile" onmouseover="showHover('bapteme')" onmouseout="hideHover('bapteme')">
+						<div class="front">
+							<div class="box box-top box-bapteme"></div>
+							<div class="box box-bottom box-bapteme"></div>
+							<h2 id="bapteme">Baptême</h2>
+							<div class="img" id="img-bapteme"></div>
+						</div>
+						<div class="back">
+							<div class="boite text-center">
+								<div class="mini-text">
+									<span class="lettrine">P</span>ostulo enim et viro si memineram nec recte facis si enim quisquam ille dicis filii ego quantum adgnosco quidem magis.
+								</div>
+								<div class="contact text-center"><a href="contact.html"><p>Contact</p></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- présentation -->
+			<section class="intro text-center row">
+				<div class="col-md-12">
+					<h2>Fedala</h2>
+					<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+				</div>
+			</section>
+
+			<!-- livre d’or -->
+			<section class="row">
+				<footer clas="col-md-12">
+					<div id="myCarousel2" class="carousel slide fullwidth" data-ride="carousel">
+						<div class="carousel-inner carous-inner2" role="listbox">
+							<div class="item active">
+								<p>« J’adore ce traiteur ! »</p>
+								<p>-- Jean michel</p>
+							</div>
+							<div class="item">
+								<p>« Il est cool et super sympathique. »</p>
+								<p>-- Sfia</p>
+							</div>
+							<div class="item">
+								<p>« Je vous le recommande sans aucune hésitation. »</p>
+								<p>-- Juliette</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+			
+		</div>
+	</body>
 	<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
-	<!--<script type="text/javascript" src="js/jquery-migrate-3.0.0.js"></script>-->
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/scroll.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-
-	<title>Fedala</title>
-
-</head>
-
-<body>
-	<section class="parallax-window" data-parallax="scroll" data-image-src="img/header4.jpg">
-
-		<!-- barre de navigation -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MenuNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Fedala</a>
-			</div>
-			<div class="collapse navbar-collapse" id="MenuNavbar">
-				<ul class="nav navbar-nav nav-middle">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="traiteur-1.html">Traiteur</a></li>
-					<li><a href="evenement.html">Événements</a></li>
-					<li><a href="location.html">Locations</a></li>
-					<li><a href="contact.html">Contacter</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Se Connecter</a></li>
-					<li><a href="#">S’enregistrer</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<div class="bloc-primary">
-		<header class="fullwidth color-white">
-			<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
-					<div id="img-left" class="img-left-background img-responsive fullwidth"></div>
-					<div class="img-foreground fullwidth" onmouseover="addBlur('img-left')" onmouseout="remBlur('img-left')">
-						<a href="traiteur-1.html" class="entre color-white">Traiteur</a>
-					</div>
-				</div>
-				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
-					<div id="img-center" class="img-center-background img-responsive fullwidth"></div>
-					<div class="img-foreground fullwidth" onmouseover="addBlur('img-center')" onmouseout="remBlur('img-center')">
-						<a href="evenement.html" class="entre color-white">Evènements</a>
-					</div>
-				</div>
-				<div class="nopad img-container col-xs-12 col-sm-4 col-lg-4">
-					<div id="img-right" class="img-right-background img-responsive fullwidth"></div>
-					<div class="img-foreground fullwidth" onmouseover="addBlur('img-right')" onmouseout="remBlur('img-right')">
-					<a href="location.html" class="entre color-white">Locations</a>
-				</div>
-			</div>
-		</header>
-		</div>
-		<div id="change"></div>
-		
-		<section class="bg-primary intro text-center">
-			<div class="col-sm-8 mid-text">
-				<h1 class="color-white">Fedala</h1>
-				<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
-			</div>
-		</section>
-
-		<section class="bg-primary">
-			<h3 class="well-h3">nos services</h3>
-			<div class="container">
-				<div class="about left">
-					<h2 class="color-white">Lorem Lorem Lorem</h2>
-					<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
-				</div>
-
-				<div class="container-fluid">
-	    			<div class="row bloc-img right">
-	    				<div class="col-md-6">
-		    				<div class="effect right">
-		    					<div class="overlay color-white">
-		                    	<div class="title-hover">Déco</div>
-		                    	</div>
-		                    	<a href="#"><img src="img/img1.jpg" class="img-responsive pic" alt="img" /></a>
-		                    </div>
-		                </div>
-		                <div class="col-md-6">
-		    				<div class="effect right">
-		    					<div class="overlay color-white">
-		                    	<div class="title-hover">Traiteur</div>
-		                    	</div>
-		                    	<a href="#"><img src="img/img3.jpg" class="img-responsive pic" alt="img" /></a>
-		                    </div>
-		                </div>
-		                <div class="col-md-6">
-		    				<div class="effect right">
-		    					<div class="overlay color-white">
-		                    	<div class="title-hover">Evènements</div>
-		                    	</div>
-		                    	<a href="#"><img src="img/img4.jpg" class="img-responsive pic" alt="img" /></a>
-		                    </div>
-		                </div>
-		                <div class="col-md-6">
-		    				<div class="effect right">
-		    					<div class="overlay color-white">
-		                    	<div class="title-hover">Location</div>
-		                    	</div>
-		                    	<a href="#"><img src="img/img2.jpg" class="img-responsive pic" alt="img" /></a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-			</div>
-		</section>
-
-		<div class="footer-primary">
-		<footer>
-			<div class="container">
-				<div id="myCarousel2" class="carousel slide fullwidth" data-ride="carousel">
-
-				  <div class="carousel-inner carous-inner2" role="listbox">
-				    <div class="item active">
-				      <div class="carous-text">" J'adore ce traiteur. "</div>
-				      <div class="carous-text-name">--Jean michel</div>
-				    </div>
-
-				    <div class="item">
-				      <div class="carous-text">" Il est cool et super sympathique. "</div>
-				      <div class="carous-text-name">--Sfia</div>
-				    </div>
-
-				    <div class="item">
-				      <div class="carous-text">" Je vous le recommande sans aucune hésitation. "</div>
-				      <div class="carous-text-name">--Juliette</div>
-				</div>
-			</div>
-		</footer>
-		</div>
-		</section>
-
-
-</body>
-
+	<script type="text/javascript" src="js/flip.js"></script> 
+	<script type="text/javascript" src="js/evenement.js"></script>
 </html>

@@ -34,14 +34,11 @@ function hideHover (hoverID) {
 
 /* JQUERY POUR LES TUILES */
 
-
 $(function rotation(){
-    
-      $("#tuile-1").flip({
-        axis: "y",
-        reverse: false,
-        trigger: "click", 
-        speed: 1000
-          
-      });
-    });
+	$(".tuile").flip({
+		axis: "y",
+		reverse: false,
+		trigger: "click", 
+		speed: 1000
+	});
+});
