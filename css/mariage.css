@@ -1,17 +1,16 @@
-body {
-	overflow: hidden;
-}
-
 .img-left-background,
 .img-center-background,
 .img-right-background {
 	position: absolute;
-	z-index: -1;
-	min-height: 700px;;
+	z-index: -1	;
+	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: 2s;
     background-position: center;
+}
+.img-container {
+	height: 100vh;
 }
 
 .img-left-background {
@@ -27,7 +26,7 @@ body {
 }
 
 .img-foreground {
-	height: 700px;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -100,4 +99,5 @@ body {
 	width: 100vw;
 	height: 100px;
 	background-color: transparent;
+	z-index: 1;
 }
