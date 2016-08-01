@@ -35,13 +35,13 @@ header {
 }
 #img-traiteur {
 	height: 250px;
-	background-image: url(../img/evenement-traiteur.jpg);
+	background-image: url(../img/tuiles/tuile-traiteur.jpg);
 }
 #img-mariage {
-	background-image: url(../img/evenement-mariage.jpg);
+	background-image: url(../img/tuiles/tuile-mariage.jpg);
 }
-#img-noel {
-	background-image: url(../img/evenement-noel.jpg);
+#img-cocktail {
+	background-image: url(../img/tuiles/tuile-cocktail.jpg);
 }
 #img-retraite {
 	background-image: url(../img/evenement-retraite.jpg);
