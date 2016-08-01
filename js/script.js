@@ -54,10 +54,9 @@ function hideHover (hoverID) {
 // effet de retournement
 $(function rotation(){
 	$(".tuile").flip({
-		axis: "y",
-		reverse: false,
-		trigger: "click", 
-		speed: 1000
+        axis: "y",
+        reverse: true,
+        trigger: "click"
 	});
 	$(".tuile-large").flip({
 		axis: "x",
