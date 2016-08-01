@@ -2,6 +2,15 @@
   font-family: "roboto";
 }
 
+/* image de fond de la page */
+body {
+  background-image:url(../img/header-location.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+	min-height:100vh;
+}
+
 .space {
   height: 80px;
 }
@@ -130,8 +139,4 @@ header {
 .marg-top {
   margin-top: 50px;
   border-top: 1px solid #fff;
-}
-
-.parallax-window {
-  min-height: 100vh;
 }
