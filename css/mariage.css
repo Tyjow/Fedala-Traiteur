@@ -1,3 +1,7 @@
+body {
+	overflow: hidden;
+}
+
 .img-left-background,
 .img-center-background,
 .img-right-background {
@@ -50,9 +54,9 @@
 }
 
 .half-round {
-	top: 80px;
+	/*top: 80px;
 	left: 575px;
-	position: fixed;
+	position: fixed;*/
 	height:95px;
 	width:190px;
 	border-radius: 0 0 90px 90px;
@@ -64,25 +68,36 @@
 	color: #000;
 	font-family: 'Philosopher', sans-serif;
 	font-size: 25px;
+	margin-top: 0;
+	padding-bottom: 1px;
+	margin-bottom: 0;
 }
 
 .box {
 	border: 1px none #000;
-	width: 50%;
+	width: 40%;
 	height: 15%;
-	position: absolute;
+	/*position: absolute;*/
 	transition: 1s;
 	z-index: 1;
 }
 .box-top {
 	border-top-style: solid;
 	border-left-style: solid;
-	top: 10%;
-	left: 15%;
+	margin: 15px 0 0 35px;
 }
 .box-bottom {
 	border-bottom-style: solid;
 	border-right-style: solid;
-	bottom: 30%;
-	right: 20%;
+	margin: 0 0 0 70px;
+}
+.content-round {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 80px;
+	left: 0;
+	width: 100vw;
+	height: 100px;
+	background-color: transparent;
 }
